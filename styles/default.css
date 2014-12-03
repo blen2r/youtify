@@ -333,6 +333,10 @@ input[type=search]::-webkit-search-results-decoration {
     top: -4px;
     left: 6px;
 }
+#settings .puffs .chrome-webstore {
+    padding-left: 20px;
+    background: url(/images/chrome_16.png) no-repeat left center;
+}
 #top .activities {
     position: relative;
 }
@@ -986,6 +990,11 @@ input[type=search]::-webkit-search-results-decoration {
     font-style: italic;
     line-height: 20px;
 }
+#right .profile .information-container .flattr .username {
+    padding-left: 20px;
+    background: url(/images/flattr_16.png) no-repeat center left;
+    line-height: 28px;
+}
 .modalbox.edit-profile .wrapper {
     text-align: left;
 }
@@ -1006,6 +1015,9 @@ input[type=search]::-webkit-search-results-decoration {
 }
 .pane.selected {
     display: block;
+}
+#right .profile .pane.profile-flattrs {
+    padding-top: 5px;
 }
 #right .profile .pane.profile-followings .user,
 #right .profile .pane.profile-followers .user {
@@ -1848,6 +1860,9 @@ body.fullscreen #bottom {
 #settings .connections .connection .title {
     padding-left: 20px;
 }
+#settings .connections .flattr .account {
+    background: url(/images/flattr_16.png) no-repeat center left;
+}
 #settings .connections .lastfm .account {
     background: url(/images/lastfm_16.png) no-repeat center left;
 }
@@ -2157,6 +2172,11 @@ body.fullscreen #bottom {
 }
 #right .activity .timestamp {
     font-weight: bold;
+}
+
+#right .pane.flattr .puff {
+    padding: 5px 5px;
+    text-align: center;
 }
 
 #top .link,

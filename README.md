@@ -1,5 +1,8 @@
 Youtify is an online music player.
 
+[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=Youtify&url=https://github.com/youtify/youtify&title=Youtify&language=en_GB&tags=github&category=software)
+
+
 Code Style
 ----------
 
@@ -50,3 +53,10 @@ Install JSLint, UglifyJS and other dependencies:
 To run the build system:
 
     $ node make/generate_production_javascript.js
+
+Discussion
+----------
+
+Twitter: @youtify, @pthulin, @kallux
+Mail: youtify@youtify.com
+... or create issues here on GitHub!
